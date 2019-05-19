@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+    background: #1c1c1c;
+    background-image: url("images/bg.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+p {
+    color: white;
+}
+
+.sub-h1 {
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sub-h2 {
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sub-h3 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    margin-top: 10%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sub-head {
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.section-divider {
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    background-image: url("images/divider.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#nav-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-color: rgba(19, 19, 19, .90);
+    min-height: 75px;
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 80px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+
+.navbar-nav li a:hover {
+    color: #a3119d !important;
+}
+
+ul.navbar-nav.ml-auto {
+    margin-right: 5%;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding-right: 20px;
+}
+
+/* -- Banner Bereich -- */
+
+#banner {
+    background-image: url("/images/banner.gif");
+    background-position-y: 70%;
+    background-position-x: 35%;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.banner-content {
+    padding: 100px;
+    text-align: center;
+}
+
+.promo-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.fa-ticket-alt {
+    font-size: 40px;
+}
+
+#banner a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/* Club Bereich */
+
+#club{
+    padding: 80px 0;
+}
+
+.club-logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.club-text {
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.video-container {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    background: #a3119d;
+}
+
+.video-frame {
+    width: 65vw;
+    height: 69.5vh;
+    padding: 0;
+}
+
+/* Über Text */
+
+.ueber-text {
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.parallax {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url("/images/bar-2.gif");
+
+    min-height: 300px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* DJ Bereich */
+#djs {
+    background-image: url("images/dj_bg1.png");
+    background-size: cover;
+    min-height: 400px;
+    padding: 45px 0px;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.dj-container {
+    background: #131313;
+    height: 60%;
+    width: 80%;
+    margin: 5% auto 0;
+}
+
+.dj-innercontainer {
+    margin: 0 auto;
+    background-color: #131313;
+    width: 80%;
+}
+
+.dj-left {
+    width: 50%;
+    display: inline-block;
+    background: red;
+}
+
+.dj-right {
+    width: 50%;
+    height: 65%;
+    float: right;
+    background: blue;
+}
+
+.dj-image {
+    display: inline-block;
+    margin: 5% 20% 10%;
+    width: 60%;
+}
+/* Event Bereich */
+
+.img-container {
+    position: relative;
+}
+
+.event-image-box {
+    padding: 0px 20%;
+    text-align: center;
+}
+
+.event-img {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #a3119d;
+}
+
+.event-img:hover {
+    background-color: #a3119d;
+    transition: .6s ease;
+}
+
+/* Maps Bereich */
+
+.event-maps {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: hue-rotate(270deg);
+}
+
+/* Footer Bereich */
+
+.mainfooter {
+    //background-color: rgba(19, 19, 19, .80);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.mainfooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainfooter a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-sub {
+    margin: 4% 0;
+}
+
+/* Impressum */
+
+.impressum {
+    padding: 2% 20%;
+    text-align: justify;
+}
+
+/* Datenschutz */
+
+.datenschutz {
+    padding: 2% 20%;
+    text-align: justify;
+}
+
+/* Jobs */
+
+.jobs {
+    padding: 2% 20%;
+    text-align: justify;
+}
+
+.jobs-img {
+    width: 25%;
+    max-width: 300px;
+    min-width: 150px;
+    display: block;
+    margin: 5vh auto;
+}
+
+.job-desc {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    text-align: left;
+}
+
+/* Cookie shit */
+.cc-window.cc-floating.cc-type-info.cc-theme-block.cc-bottom.cc-left.cc-color-override-1221681214 {
+    border: 2px solid #a3119d;
+}
+
+/* Fancy Bild Hover */
+
+.container{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width: 640px){
+    .container{
+        display: block;
+        width: 100%;
+        margin-bottom: 1%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .container{
+        width: 33.33333%;
+        margin-bottom: 1%;
+    }
+}
+
+.container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    margin: 2.5%;
+    padding: 10px;
+    border: 1px solid #a3119d;
+}
+
+.content .content-overlay {
+    background: rgba(163,17,157,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+    opacity: 1;
+}
+
+.content-image{
+    width: 100%;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+    top: 80%;
+}
+
+.fadeIn-top{
+    top: 20%;
+}
+
+.fadeIn-left{
+    left: 20%;
+}
+
+.fadeIn-right{
+    left: 80%;
+}
+/* Mobile CSS */
+@media screen and (max-width: 992px) {
+    button.navbar-toggler {
+        margin-right: 5%;
+    }
+
+    .navbar {
+        background-color: black;
+        min-height: 75px;
+        padding: 0 !important;
+    }
+
+    a.nav-link {
+        padding: 20px;
+    }
+
+    .banner-content {
+        padding: 50px;
+    }
+
+    .promo-title {
+        font-size: 8vw;
+    }
+
+    .sub-head {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #club {
+        padding: 80px 0 20px 0;
+    }
+
+    .parallax {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-image: url("/images/bar-2.gif");
+
+        min-height: 300px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 20%;
+    }
+
+    .video-frame {
+        width: 100vw;
+        height: 30vh;
+        padding: 0;
+    }
+
+    .event-image-box {
+        padding: 0px 10%;
+    }
+
+    .event-img {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #a3119d;
+        margin-left: 0;
+        margin-right: 5%;
+    }
+
+    .event-img:hover {
+        background-color: #a3119d;
+        transition: .6s ease;
+    }
+
+    .slider {
+        width: 100vw;
+        height: 400px;
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .first-slide {
+        margin-left: -7%;
+    }
+
+    .slide {
+        width: 325px;
+        height: 325px;
+        flex-shrink: 0;
+    }
+
+    .footer-sub {
+        margin: 10% 0;
+    }
+
+    .job-desc {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}

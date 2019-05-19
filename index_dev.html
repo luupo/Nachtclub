@@ -1,0 +1,254 @@
+<html>
+<head>
+    <title>Nachtclub - L. L. | Direkt in Lennestadt.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Der Nachtclub - L. L. ist der neue, angesagte Nachtclub in Lennestadt - Altenhundem. Zentral gelegen, direkt auf dem Kreisverkehr.">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Google Anal ytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134198987-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134198987-1');
+    </script>
+
+    <! -- Datenschutz-Shit -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ffffff"
+                    },
+                    "button": {
+                        "background": "transparent",
+                        "border": "#a3119d",
+                        "text": "#a3119d"
+                    }
+                },
+                "showLink": false,
+                "position": "bottom-left",
+                "content": {
+                    "message": "Diese Website verwendet Cookies – nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer Datenschutzerklärung am Ende der Seite. Klicken Sie auf „Ich stimme zu“, um Cookies zu akzeptieren und direkt unsere Website besuchen zu können.",
+                    "dismiss": "Ich stimme zu!"
+                }
+            })});
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            var isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+
+            if (isMobile) {
+                var scrollOffset = 420;
+            } else {
+                var scrollOffset = 100;
+            }
+            $(document).ready(function () {
+                $('a[href*="#"]').on('click', function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top - scrollOffset
+                    }, 999, 'swing', function () {
+                        window.location.hash = target;
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo-lang.gif"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#banner" data-target=".navbar-collapse" data-toggle="collapse">STARTSEITE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#club" data-target=".navbar-collapse" data-toggle="collapse">DER CLUB</a>
+                </li>
+                <li class="nav-item last">
+                    <a class="nav-link" href="#coming-soon" data-target=".navbar-collapse" data-toggle="collapse">AKTUELLES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#events" data-target=".navbar-collapse" data-toggle="collapse">EVENTS</a>
+                </li>
+                <li class="nav-item last">
+                    <a class="nav-link" href="#maps" data-target=".navbar-collapse" data-toggle="collapse">KONTAKT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<! -- Banner Bereich -- >
+
+<section id="banner">
+    <div class="container">
+    </div>
+    <div class="row">
+    </div>
+    <div class="banner-content">
+        <p class="promo-title">Der neue Nachtclub in Lennestadt!</p>
+        <p class="promo-content">Willkommen auf unserer Internetseite. Wir sind der neue Nachtclub direkt im Kreisel! Hier geht es rund.</p>
+    </div>
+</section>
+<! -- Club Bereich -- >
+<section id="club">
+    <h2 class="sub-h2"><span>Der neue Nachtclub in Lennestadt.</span></h2>
+    <p class="sub-head">Nachtclub "L. L." - Direkt im Kreisel!</p>
+    <div class="club-logo">
+        <img src="images/logo.png" width="250px">
+    </div>
+    <div class="club-text">
+        <p>Der Nachtclub - "L. L." liegt im <b>Lucas'schen Bogen 1</b> in 57368 Lennestadt-Altenhundem. Zentral gelegen, direkt auf der Grünfläche des Kreisels, in unmittelbarer Nähe zur Straße und zum Bahnhof, nicht weit vom Luca Gedenkplatz. Die Tiefgarage befindet sich direkt unterhalb des Kreisverkehrs.
+            <br><br>Die Einfahrt zur <b>Tiefgarage</b> öffnet sich nach dreimaligem umrunden des Kreisverkehrs, hupend und mit Warnblinklicht. <b>Buspark- und Helikopterlandeplätze</b> sind fußläufig in 200 Metern erreichbar.</p>
+        <p><br>Für die Anreise mit <b>Boot oder Yacht</b> melden Sie sich bitte drei Tage im Vorraus telefonisch an, damit wir den Kreisverkehr fluten können.</p>
+    </div>
+</section>
+<div class="section-divider"></div>
+<! -- Ankündigungen -- >
+<section id="coming-soon">
+    <div class="coming">
+        <h2 class="sub-h2">Aktuelle Ankündigungen</h2>
+        <p class="sub-head">Hier findet Ihr alle aktullen Informationen.</p>
+        <div class="video-container">
+            <iframe class="video-frame" src="https://www.youtube-nocookie.com/embed/Ppm4ODWbdPU?rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<div class="section-divider"></div>
+<! -- Über-Uns Bereich -- >
+
+<section id="ueber-uns">
+    <div class="ueber">
+        <h2 class="sub-h2">Über unseren Club.</h2>
+        <p class="sub-head">Unsere Geschichte - Kurz und knapp.</p>
+        <p class="ueber-text">
+            Der Nachtclub - "L. L." wurde im Jahre 1938 eröffnet und ist Nachtclub und zugleich Kulturzentrum in Lennestadt.
+            Die außergewöhnliche Location liegt direkt auf dem Kreisverkehr und war die Inspiration für den Triumphbogen in Paris (Arc de Triomphe de l’Étoile).
+            Bereits nach kürzester Zeit hat sich der Nachtclub - "L. L." als Kulturstätte fest in Lennestadt etabliert - durch die nationalen wie internationalen Bookings erreicht der Club Menschen aus ganz Nordrhein-Westfalen, die mitten auf einem Kreisverkehr Live-Konzerte erleben können.
+            <br> <br>
+            Das Booking des Clubs zeichnet sich insbesondere durch sein Gespür für kreative und talentierte Künstler aus, die auf einem höchst professionellen Niveau arbeiten.
+            <br><br>
+            Im Jahr 2010 wurde der Nachtclub um ein eigenes Parkhaus erweitert, welches Platz für <b>3141</b> PKWs, <b>59</b> LKWs sowie <b>265</b> Motorräder, <b>35</b> Flugzeuge und <b>59</b> Boote bietet. Außerdem verfügt der Nachtclub
+        über 12 Etagen, mit individueller Musik pro Etage. Die Genres des Nachtclubs umfassen HipHop, Pop, Rock, Techno, Elektro und viele mehr. Im Basement des Nachtclubs befindet sich zudem eine Eisbar.</p>
+
+    </div>
+    <div class="parallax"></div>
+</section>
+<div class="section-divider"></div>
+
+<! -- Unsere DJs -- >
+
+<section id="djs">
+    <div class="djs-main">
+        <h2 class="sub-h2">Profile unserer DJ's</h2>
+        <p class="sub-head">Erfahre alles über unser Stamm-DJ's.</p>
+        <div class="dj-innercontainer">
+            <div class="dj-left">
+                <h3 class="sub-h3">DJ Vampire</h3>
+                <img src="images/dj2.gif" class="dj-image">
+            </div>
+            <div class="dj-right">
+                Musikrichtung
+            </div>
+        </div>
+    </div>
+</section>
+<div class="section-divider inner-section"></div>
+
+<! -- Events Bereich -->
+
+<section id="events">
+    <div class="events-showroom">
+        <h2 class="sub-h2">Kommende Events in unserem Club.</h2>
+        <p class="sub-head">Bei uns geht es immer rund!</p>
+        <div class="event-image-box slider">
+            <div class="content slide first-slide">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/party1.gif">
+                <div class="content-details">
+                    <h3>Pink und Blau</h3>
+                    <p>Am 08.03.2019</p>
+                </div>
+            </div>
+            <div class="content slide">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/party2.gif">
+                <div class="content-details">
+                    <h3>Cock & Tails</h3>
+                    <p>Am 15.03.2019</p>
+                </div>
+            </div>
+            <div class="content slide">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/party3.gif">
+                <div class="content-details">
+                    <h3>Geburtstags-</h3>
+                    <h3>event</h3>
+                    <p>Am 20.03.2019</p>
+                </div>
+            </div>
+            <div class="content slide">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/party4.gif">
+                <div class="content-details">
+                    <h3>Halloween</h3>
+                    <p>Am 31.10.2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="section-divider"></div>
+<! -- Maps Bereich -->
+
+<section id="maps">
+    <div class="maps">
+        <h2 class="sub-h2">So erreicht Ihr uns ganz einfach!</h2>
+        <p class="sub-head">Unser Nachtclub befindet sich direkt in Lennestadt - Altenhundem.</p>
+        <iframe class="event-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.0920240476!2d8.071565715736517!3d51.106762279571264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bbffbf4a885a8f%3A0xa7b45ea96121a832!2sNachtclub+-+%22L.+L.%22!5e0!3m2!1sde!2sde!4v1549212247430" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<! -- Footer Bereich -->
+
+<section id="footer">
+    <div class="prefooter">
+        <p class="sub-head footer-sub">Wir freuen uns auf deinen Besuch, bis bald!</p>
+    </div>
+    <div class="mainfooter">
+        <p>Erstellt mit ❤ in Lennestadt.️</p>
+        <a href="/impressum.html">Impressum</a> | <a href="/datenschutz.html">Datenschutz</a>
+    </div>
+</section>
+
+</body>
+</html>
